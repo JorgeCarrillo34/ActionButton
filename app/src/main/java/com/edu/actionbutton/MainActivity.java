@@ -79,12 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 builder.addAction(R.drawable.ic_launcher_background,"Not",pendingIntent2);
                 //notify manager
                 manager.notify(1, builder.build());
-
             }
-
         });
-
-
-
     }
 }

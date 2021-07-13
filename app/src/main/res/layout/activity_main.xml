@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/bt_show"
-        android:text="The secret of comedy is"
+        android:text="The secret of comedy is: "
         android:layout_centerInParent="true"/>
 
 </RelativeLayout>

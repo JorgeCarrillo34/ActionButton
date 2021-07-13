@@ -16,15 +16,9 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-
-        //asignar variable
-
         textview = findViewById(R.id.text_view);
-
-        //inicilizar notificacion
         NotificationManager manager = (NotificationManager)getApplicationContext().getSystemService(NOTIFICATION_SERVICE);
 
-        //clear notification
         manager.cancelAll();
 
         //check condition
